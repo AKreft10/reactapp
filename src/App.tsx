@@ -13,6 +13,7 @@ function App() {
     <Router>
       <MenuBar/>
           <Routes>
+              <Route path="/" element={<TemporaryBody/>}/>
               <Route path="/regulamin" element={<Regulamin />} />
               <Route path="/main" element={<TemporaryBody/>} />
           </Routes>
